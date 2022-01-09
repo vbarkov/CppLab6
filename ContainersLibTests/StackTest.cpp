@@ -1,4 +1,4 @@
-#if defined(ALL_TESTS) || ADAPTERS_TESTS == 1
+#if FORCE_RUN_ALL_TESTS == 1 || RUN_ADAPTERS_TESTS == 1
 #include "gtest/gtest.h"
 #include <memory>
 

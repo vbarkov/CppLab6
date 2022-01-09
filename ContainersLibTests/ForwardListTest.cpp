@@ -1,4 +1,4 @@
-#if defined(ALL_TESTS) || FORWARD_LIST_TESTS == 1
+#if defined(FORCE_RUN_ALL_TESTS) || RUN_FORWARD_LIST_TESTS == 1
 #include "gtest/gtest.h"
 #include <memory>
 
